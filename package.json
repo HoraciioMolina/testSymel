@@ -1,0 +1,30 @@
+{
+  "name": "symel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npm run dev",
+    "prod": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "firebase": "^9.0.0-beta.7",
+    "formik": "^2.2.9",
+    "material-table": "^1.69.3",
+    "next": "11.0.1",
+    "notistack": "^1.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
