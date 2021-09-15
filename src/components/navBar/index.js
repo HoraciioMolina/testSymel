@@ -6,6 +6,7 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import useAppContext from "../../hooks/useAppContext";
 import Box from '@material-ui/core/Box';
 import LanguageIcon from '@material-ui/icons/Language';
+import Image from "next/image";
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -42,12 +43,20 @@ const NavBar = () => {
         </IconButton>*/}
         <div style={{ width: "100%", display: "flex", alignItems: "center" }}>
           <div>
-            <ul style={{listStyle: "none"}}>
-              <li><LanguageIcon style={iconStyle}/> Conoce mas de nuestro Internet con Fibra optica</li>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                <LanguageIcon style={iconStyle} /> Conoce mas de nuestro
+                Internet con Fibra optica
+              </li>
             </ul>
           </div>
           <div style={{ marginLeft: "auto", marginRight: "auto" }}>
-            <img alt="" src="./images/logo.png" width={'80%'} />
+            <Image
+              alt="logo"
+              src="/images/logo.png"
+              width="100rem"
+              height="65rem"
+            />
           </div>
           <ButtonGroup
             width={190}
