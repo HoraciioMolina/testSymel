@@ -47,7 +47,7 @@ const NavBar = () => {
             </ul>
           </div>
           <div style={{ marginLeft: "auto", marginRight: "auto" }}>
-            <img src="./images/logo.png" width={'80%'} />
+            <img alt="" src="./images/logo.png" width={'80%'} />
           </div>
           <ButtonGroup
             width={190}
