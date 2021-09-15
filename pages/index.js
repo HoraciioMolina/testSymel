@@ -4,7 +4,6 @@ import Banner from "../src/components/banner"
 import Plans from "../src/components/plans";
 import ContactUs from "../src/components/contactUs";
 import AboutUs from "../src/components/aboutUs";
-import { HomeContainer } from "./styles";
 
 const Home = (props) => {
   return (
@@ -15,12 +14,13 @@ const Home = (props) => {
         <link rel="icon" href="/logoDos.png" />
       </Head>
 
-      <HomeContainer>
+            <div style={{minHeight: '100vh'}}>
+
         <Banner />
         <Plans />
         <AboutUs />
         <ContactUs />
-      </HomeContainer>
+      </div>
     </>
   );
 }
